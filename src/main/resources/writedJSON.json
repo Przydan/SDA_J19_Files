@@ -1,0 +1,11 @@
+{
+  "lastName": "Kowalski",
+  "address": {
+    "city": "Poznań",
+    "street": "Żmigrodzka",
+    "postalCode": "11-222"
+  },
+  "name": "Jan",
+  "salary": 10000,
+  "age": 30
+}

@@ -7,7 +7,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 class JSONReader {
-    Person read (String filePath) {
+
+    Person read(String filePath) {
         Person result = new Person();
         try {
             byte[] bytes = Files.readAllBytes(Paths.get(filePath));
@@ -35,13 +36,13 @@ class JSONReader {
             address.setStreet(street);
             address.setPostalCode(postalCode);
 
-
+            result.setAddress(address);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return null;
+        return result;
 
     }
 }

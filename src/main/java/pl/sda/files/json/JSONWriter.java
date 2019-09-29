@@ -21,11 +21,11 @@ class JSONWriter {
 
     private String personsToJSON(Person person) {
         JSONObject jsonToSave = new JSONObject();
-        
+
         //TODO: rzeźba z tworzeniem linkedHashMapy w clasie JSONObject
         // by kolejność kluczy w JSON nie była podyktowana kolejnością hashy
 
-        jsonToSave.("name", person.getName());
+        jsonToSave.put("name", person.getName());
         jsonToSave.put("lastName", person.getLastName());
         jsonToSave.put("age", person.getAge());
         jsonToSave.put("salary", person.getSalary());
