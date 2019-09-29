@@ -1,0 +1,13 @@
+{
+  "projectName" : "dreamPC",
+  "cpu" : "RYZEN 7",
+  "ram" : "G.SKILL RIPJAWS 32 GB",
+  "mob" : "ASUS X390",
+  "gpu" : "RTX 2080 TI",
+  "psu" : "SeaSonic 1000W",
+  "mem" : "Samsung EVO 960 1TB",
+  "soft" : {
+    "sys1" : "LINUX",
+    "sys2" : "WIN10PRO"
+  }
+}
