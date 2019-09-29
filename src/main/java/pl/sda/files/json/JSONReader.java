@@ -31,9 +31,9 @@ class JSONReader {
             result.setSalary(salary);
 
             Address address = new Address();
-            address.getCity(city);
-            address.getStreet(street);
-            address.getPostalCode(postalCode);
+            address.setCity(city);
+            address.setStreet(street);
+            address.setPostalCode(postalCode);
 
 
 
